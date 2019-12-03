@@ -952,6 +952,8 @@ class StackViewLayout extends React.Component<Props, State> {
         position: this.position,
         scene,
       });
+    
+    console.log('@@@ STYLE', style);
 
     // When using a floating header, we need to add some top
     // padding on the scene.
